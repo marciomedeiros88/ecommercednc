@@ -1,0 +1,78 @@
+:root {
+  --cinza-DNC: #2d2d2d;
+  --azul-DNC: #0c70f2;
+  --azul-escuro-DNC: #0a499c;
+}
+
+header {
+  background-color: var(--cinza-DNC);
+  height: 6em;
+  display: grid;
+  align-items: center;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  padding: 4em 6em;
+  margin: auto;
+}
+
+form {
+  display: grid;
+  padding: 3em 6em;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+label {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-family: "Raleway", sans-serif;
+}
+
+input {
+  height: 2.5em;
+  padding: 0.5em;
+  font-family: "Raleway", sans-serif;
+  border: solid 2px #7a7a7a;
+  width: 30em;
+}
+
+input:focus {
+  background-color: var(--cinza-DNC);
+  color: white;
+}
+
+button {
+  background-color: var(--azul-DNC);
+  height: 2em;
+  color: white;
+  border: none;
+  margin-top: 2em;
+  padding: 1.5em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12pt;
+  transition: all 500ms;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: var(--azul-escuro-DNC);
+  transition: all 500ms;
+}

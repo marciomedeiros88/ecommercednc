@@ -1,0 +1,52 @@
+:root {
+  --cinza-DNC: #2d2d2d;
+  --azul-DNC: #0c70f2;
+}
+
+.lista_produtos {
+  padding: 2em 3em;
+  margin: 0;
+  justify-content: space-around;
+  display: grid;
+  grid-auto-flow: column;
+  background-color: var(--cinza-DNC);
+  height: auto;
+}
+
+.banner_principal {
+  margin: auto;
+  width: 100%;
+  display: grid;
+}
+
+.banner_principal img {
+  width: 100%;
+}
+
+.card_produto {
+  width: auto;
+  height: 25em;
+  background-color: white;
+  display: grid;
+  grid-auto-flow: row;
+  margin: auto;
+}
+
+.box_produto {
+  border-radius: 10px 10px 0 0;
+}
+
+.box_produto img {
+  border-radius: 10px 10px 0 0;
+}
+
+.descricao_produto {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14pt;
+  text-align: center;
+  width: 12em;
+  margin: auto;
+  display: grid;
+  grid-auto-flow: row;
+}

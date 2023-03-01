@@ -1,0 +1,29 @@
+:root {
+  --cinza-DNC: #2d2d2d;
+  --azul-DNC: #0c70f2;
+}
+
+footer {
+  display: grid;
+  grid-auto-flow: column;
+  color: white;
+  background-color: var(--azul-DNC);
+  align-items: center;
+  height: 4em;
+  padding: 2em;
+  font-family: "Raleway", sans-serif;
+}
+
+.rodape_esq {
+  display: grid;
+  align-items: center;
+}
+
+footer img {
+  height: 3em;
+}
+
+.rodape_dir {
+  display: grid;
+  align-items: center;
+}
