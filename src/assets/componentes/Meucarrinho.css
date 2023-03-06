@@ -97,9 +97,7 @@
     background: #0C70F2;
 }
 
-.color_area {
 
-}
 
 .color_text{
     margin-top: 1em;
@@ -156,3 +154,4 @@
     background-color: var(--azul-escuro-DNC);
     transition: all 500ms;
 }
+

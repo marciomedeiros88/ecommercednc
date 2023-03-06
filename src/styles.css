@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   --cinza-DNC: #2d2d2d;
   --azul-DNC: #0c70f2;
+  --azul-escuro-DNC: #0a499c;
+  --cinza-escuro-DNC: #181818;
 }
+
 
 .App {
   font-family: "Raleway", sans-serif;
@@ -16,4 +14,37 @@
 
 .border10 {
   border-radius: 10px;
+}
+
+.border100 {
+  border-radius: 100px;
+}
+
+.modal {
+  width: 70%;
+  height: 60%;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  padding:1em;
+  justify-content: space-between;
+  display: grid;
+  grid-auto-flow: column;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.area_modal{
+  top:0;
+  z-index:1;
+  position: absolute;
+  visibility: hidden;
+  display: grid;
+  grid-auto-flow: column;
+  vertical-align: middle;
+  align-items: center;
+  margin: auto;
+  padding:10%;
+  width: 80%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.5);
 }
