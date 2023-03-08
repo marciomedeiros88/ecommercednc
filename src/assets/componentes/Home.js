@@ -26,7 +26,12 @@ function Home() {
           </div>
           <div className="descricao_produto">
             <p>Microsoft Xbox Series X | Preto</p>
-            <button className="border10">Ver mais</button>
+            <Link
+              to="/produtos/1"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <button className="border10 botao_azul">Ver mais</button>
+            </Link>
           </div>
         </div>
         <div className="card_produto border10">
@@ -35,7 +40,12 @@ function Home() {
           </div>
           <div className="descricao_produto">
             <p>Microsoft Xbox Series S | Branco</p>
-            <button className="border10">Ver mais</button>
+            <Link
+              to="/produtos/2"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <button className="border10 botao_azul">Ver mais</button>
+            </Link>
           </div>
         </div>
         <div className="card_produto border10">
@@ -44,7 +54,12 @@ function Home() {
           </div>
           <div className="descricao_produto">
             <p>Nintendo Switch com Jogo</p>
-            <button className="border10">Ver mais</button>
+            <Link
+              to="/produtos/3"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <button className="border10 botao_azul">Ver mais</button>
+            </Link>
           </div>
         </div>
       </section>
@@ -55,7 +70,12 @@ function Home() {
           </div>
           <div className="descricao_produto">
             <p>Jogo God of War Playstation</p>
-            <button className="border10">Ver mais</button>
+            <Link
+              to="/produtos/4"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <button className="border10 botao_azul">Ver mais</button>
+            </Link>
           </div>
         </div>
         <div className="card_produto border10">
@@ -64,7 +84,12 @@ function Home() {
           </div>
           <div className="descricao_produto">
             <p>Jogo Uncharted: The Nathan Drake Collection</p>
-            <button className="border10">Ver mais</button>
+            <Link
+              to="/produtos/5"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <button className="border10 botao_azul">Ver mais</button>
+            </Link>
           </div>
         </div>
         <div className="card_produto border10">
@@ -73,7 +98,12 @@ function Home() {
           </div>
           <div className="descricao_produto">
             <p>Jogo Gran Turismo</p>
-            <button className="border10">Ver mais</button>
+            <Link
+              to="/produtos/6"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <button className="border10 botao_azul">Ver mais</button>
+            </Link>
           </div>
         </div>
       </section>

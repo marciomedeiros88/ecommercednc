@@ -1,0 +1,148 @@
+:root {
+    --cinza-DNC: #2d2d2d;
+    --azul-DNC: #0c70f2;
+    --azul-escuro-DNC: #0a499c;
+    --cinza-escuro-DNC: #181818;
+}
+
+.area-product {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 6em 6em;
+    margin:auto;
+    justify-content: center;
+}
+
+.product {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: start;
+}
+
+.description {
+    display:grid;
+    grid-auto-flow:row;
+    padding: 0 3em;
+}
+
+.description h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25pt;
+    line-height: 25pt;
+    color: #2D2D2D;
+    margin-top: 2em;
+}
+
+.description p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18pt;
+    line-height: 20pt;
+    text-align: left;
+    margin-top: 1em;
+
+}
+
+.description .bar {
+    margin-top: 1em;
+    width: 100%;
+    height: 2px;
+    background: #0C70F2;
+}
+
+.description_modal {
+    display:grid;
+    grid-auto-flow:row;
+    padding: 0 3em;
+}
+
+.product img {
+    width: 395px;
+    height: 321px;
+}
+
+.information {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: space-around;
+    padding: 0 3em;
+}
+
+.information h1 {
+    font-family: 'Raleway', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+    text-align: left;
+    color: #2D2D2D;
+}
+
+.information h3 {
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 20px;
+    text-align: left;
+    color: #2D2D2D;
+}
+
+.information .bar {
+    margin-top: 20px;
+    height: 3px;
+    background-color: var(--azul-DNC);
+}
+
+.information_modal {
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: space-around;
+    padding: 3em;
+}
+
+.color_text{
+    margin-top: 1em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #2D2D2D;
+}
+
+.area_color {
+    margin-top: 1em;
+    width: 3em;
+    height: 3em;
+    border-radius: 10px;
+    background-color: #000;
+    cursor:pointer;
+}
+
+.add_cart img{
+    width: 2em;
+    margin:1em;
+}
+
+.add_cart{
+    width:70% !important; 
+    float:right;
+}
+
+.remove_cart{
+    width:70% !important; 
+    float:right;
+}
+
+.price{
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-align: left;
+}

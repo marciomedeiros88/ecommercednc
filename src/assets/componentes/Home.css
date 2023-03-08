@@ -1,6 +1,8 @@
 :root {
   --cinza-DNC: #2d2d2d;
   --azul-DNC: #0c70f2;
+  --azul-escuro-DNC: #0a499c;
+  --cinza-escuro-DNC: #181818;
 }
 
 .lista_produtos {
@@ -49,4 +51,30 @@
   margin: auto;
   display: grid;
   grid-auto-flow: row;
+}
+
+.botao_azul {
+  background-color: var(--azul-DNC);
+  height: 2em;
+  width: 100%;
+  color: white;
+  border: none;
+  margin: 2em auto;
+  padding: 1.5em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12pt;
+  transition: all 500ms;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao_azul:hover {
+  background-color: var(--azul-escuro-DNC);
+  transition: all 500ms;
+}
+
+.but_link {
 }
