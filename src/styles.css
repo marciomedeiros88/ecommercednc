@@ -7,6 +7,9 @@
   --cinza-escuro-DNC: #181818;
 }
 
+*{
+  box-sizing: border-box;
+}
 
 .App {
   font-family: "Raleway", sans-serif;
@@ -21,12 +24,10 @@
 }
 
 .modal {
-  width: 70%;
-  height: 60%;
+  height: 100%;
   background-color: white;
   font-family: "Raleway", sans-serif;
-  padding:1em;
-  justify-content: space-between;
+  justify-content: space-around;
   display: grid;
   grid-auto-flow: column;
   vertical-align: middle;
@@ -43,8 +44,55 @@
   vertical-align: middle;
   align-items: center;
   margin: auto;
-  padding:10%;
-  width: 80%;
-  height: 80%;
+  padding:15%;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.botao_azul {
+  background-color: var(--azul-DNC);
+  height: 2em;
+  width: 100%;
+  color: white;
+  border: none;
+  margin: 2em auto;
+  padding: 1.5em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12pt;
+  transition: background-color 500ms;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao_azul:hover {
+  background-color: var(--azul-escuro-DNC);
+  transition: background-color 500ms;
+}
+
+.botao_cinza {
+  background-color: var(--cinza-DNC);
+  height: 2em;
+  width: 100%;
+  color: white;
+  border: none;
+  margin: 2em auto;
+  padding: 1.5em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12pt;
+  transition: background-color 500ms;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao_cinza:hover {
+  background-color: var(--cinza-escuro-DNC);
+  transition: background-color 500ms;
 }

@@ -6,13 +6,14 @@
 }
 
 .lista_produtos {
-  padding: 2em 3em;
-  margin: 0;
-  justify-content: space-around;
-  display: grid;
-  grid-auto-flow: column;
+  padding: 2em 15%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
   background-color: var(--cinza-DNC);
   height: auto;
+  align-items: center;
+  vertical-align: middle;
 }
 
 .banner_principal {
@@ -26,12 +27,12 @@
 }
 
 .card_produto {
-  width: auto;
-  height: 25em;
   background-color: white;
   display: grid;
   grid-auto-flow: row;
   margin: auto;
+  padding: 1em;
+  margin: 2em auto 2em 2em;
 }
 
 .box_produto {
