@@ -32,6 +32,7 @@ return (
     <>
     <Topo />
     <Menu />
+    <div style={{display:"grid", gridAutoFlow:"row"}}>
     <div className="area-product">
         <div className="product">
         <div className="description">
@@ -88,7 +89,8 @@ return (
         </div>
         
         </div>
-    <Rodape style={{ bottom: 0, position:'fixed'}}/>
+        <div style={{position:"relative", width:"100%"}}><Rodape /></div>
+        </div>
     </>
 );
 };

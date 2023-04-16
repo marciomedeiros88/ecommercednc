@@ -56,9 +56,8 @@ a{
   vertical-align: middle;
   align-items: center;
   margin: auto;
-  padding:15%;
+  padding:14% 10%;
   width: 100%;
-  height:116%;
   justify-content: center;
   background: rgba(0, 0, 0, 0.5);
 }
