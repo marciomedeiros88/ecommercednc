@@ -1,0 +1,26 @@
+.carrinho {
+  width: 2em;
+}
+
+.header_home {
+  background-color: var(--cinza-DNC);
+  height: 6em;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  padding: 1em;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+
+.div_home {
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  width: 110vh;
+}
+
+.input_pesquisa {
+  width: 80vh;
+}

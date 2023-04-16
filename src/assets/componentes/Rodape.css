@@ -1,0 +1,39 @@
+:root {
+  --cinza-DNC: #2d2d2d;
+  --azul-DNC: #0c70f2;
+  --azul-escuro-DNC: #0a499c;
+  --cinza-escuro-DNC: #181818;
+}
+
+footer {
+  display: grid;
+  grid-auto-flow: column;
+  color: white;
+  background-color: var(--azul-DNC);
+  align-items: center;
+  width:100%;
+  padding: 2em;
+  font-family: "Raleway", sans-serif;
+  justify-content: left;
+  bottom: 0;
+  position: static;
+}
+
+.rodape_esq {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  width: 20em;
+}
+
+footer img {
+  height: 3em;
+}
+
+.rodape_dir {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+}
