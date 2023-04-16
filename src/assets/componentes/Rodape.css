@@ -16,7 +16,8 @@ footer {
   font-family: "Raleway", sans-serif;
   justify-content: left;
   bottom: 0;
-  position: static;
+  left: 0;
+  position: relative;
 }
 
 .rodape_esq {
