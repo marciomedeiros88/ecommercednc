@@ -1,6 +1,8 @@
 :root {
   --cinza-DNC: #2d2d2d;
   --azul-DNC: #0c70f2;
+  --azul-escuro-DNC: #0a499c;
+  --cinza-escuro-DNC: #181818;
 }
 
 footer {
@@ -9,14 +11,20 @@ footer {
   color: white;
   background-color: var(--azul-DNC);
   align-items: center;
-  height: 4em;
+  width:100%;
   padding: 2em;
   font-family: "Raleway", sans-serif;
+  justify-content: left;
+  bottom: 0;
+  position: static;
 }
 
 .rodape_esq {
-  display: grid;
+  display: flex;
   align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  width: 20em;
 }
 
 footer img {
@@ -24,6 +32,8 @@ footer img {
 }
 
 .rodape_dir {
-  display: grid;
+  display: flex;
   align-items: center;
+  vertical-align: middle;
+  justify-content: center;
 }
