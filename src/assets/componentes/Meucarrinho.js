@@ -12,9 +12,6 @@
                 let but = document.getElementsByClassName('area_modal')
                 but[0].style.visibility = "visible";
                 but[0].style.transition = "all 0.6s";
-
-                
-                
             });
             }
     return (

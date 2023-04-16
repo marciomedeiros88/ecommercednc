@@ -34,7 +34,7 @@ form {
   display: grid;
   vertical-align: middle;
   justify-content: center;
-  margin: 3em auto;
+  margin: 1em auto;
 }
 
 label {
@@ -56,10 +56,9 @@ input:focus {
   color: white;
 }
 
-.botao_azul {
+/* .botao_azul {
   background-color: var(--azul-DNC);
   height: 2em;
-  width: 100%;
   color: white;
   border: none;
   margin: 2em auto;
@@ -72,12 +71,9 @@ input:focus {
   transition: all 500ms;
   cursor: pointer;
   text-decoration: none;
-}
+} */
 
 .botao_azul:hover {
   background-color: var(--azul-escuro-DNC);
   transition: all 500ms;
-}
-
-.but_link {
 }

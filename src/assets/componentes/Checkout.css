@@ -8,7 +8,7 @@
 .area-product {
     display: grid;
     grid-auto-flow: column;
-    padding: 6em 6em;
+    padding: 7em 6em;
     margin:auto;
     justify-content: center;
 }
@@ -21,7 +21,7 @@
     align-items: start;
 }
 
-.description {
+/* .description {
     display:grid;
     grid-auto-flow:row;
     padding: 0 3em;
@@ -59,7 +59,7 @@
     display:grid;
     grid-auto-flow:row;
     padding: 0 3em;
-}
+} */
 
 .product img {
     width: 395px;
@@ -101,10 +101,12 @@
 }
 
 .information_modal {
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items:start;
     justify-content: space-around;
-    padding: 3em;
+    padding: 1.5em;
 }
 
 .color_text{
@@ -131,7 +133,7 @@
     margin:1em;
 }
 
-.add_cart{
+/* .add_cart{
     width:70% !important; 
     float:right;
 }
@@ -139,10 +141,48 @@
 .remove_cart{
     width:70% !important; 
     float:right;
-}
+} */
 
 .price{
     font-family: 'Raleway';
     font-weight: 700;
     text-align: left;
+}
+
+.color_area{
+    color: var(--azul-DNC);
+    font-weight: 600;
+}
+
+.form{
+    width: 35em;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.form label{
+    font-size: 16pt;
+}
+
+.form input{
+    border-radius: 1em;
+    border: solid 1px #7A7A7A;
+}
+
+.form select{
+    height: 4em;
+    border-radius: 1em;
+    font-family: 'Raleway';
+}
+.botao_confirmar{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.botao_confirmar button{
+    width: 35em;
 }

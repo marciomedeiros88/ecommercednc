@@ -56,9 +56,9 @@
 }
 
 .description_modal {
-    display:grid;
-    grid-auto-flow:row;
-    padding: 0 3em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
 }
 
 .product img {
@@ -132,13 +132,11 @@
 }
 
 .add_cart{
-    width:70% !important; 
-    float:right;
+    width:100%;
 }
 
 .remove_cart{
-    width:70% !important; 
-    float:right;
+    width:100%;
 }
 
 .price{

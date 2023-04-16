@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 :root {
-  --cinza-DNC: #2d2d2d;
+  --cinza-DNC: ##676767;
   --azul-DNC: #0c70f2;
   --azul-escuro-DNC: #0a499c;
   --cinza-escuro-DNC: #181818;
@@ -9,6 +9,12 @@
 
 *{
   box-sizing: border-box;
+}
+
+a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App {
@@ -19,6 +25,10 @@
   border-radius: 10px;
 }
 
+.border50 {
+  border-radius: 50px;
+}
+
 .border100 {
   border-radius: 100px;
 }
@@ -27,15 +37,17 @@
   height: 100%;
   background-color: white;
   font-family: "Raleway", sans-serif;
-  justify-content: space-around;
+  justify-content: center;
   display: grid;
   grid-auto-flow: column;
   vertical-align: middle;
   align-items: center;
+  padding:3em;
 }
 
 .area_modal{
   top:0;
+  left:0;
   z-index:1;
   position: absolute;
   visibility: hidden;
@@ -46,19 +58,48 @@
   margin: auto;
   padding:15%;
   width: 100%;
+  height:116%;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal2 {
   height: 100%;
-  justify-content: space-around;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  justify-content: center;
+  display: grid;
+  grid-auto-flow: column;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.area_modal2{
+  top:0;
+  z-index:1;
+  position: absolute;
+  visibility: visible;
+  display: grid;
+  grid-auto-flow: column;
+  vertical-align: middle;
+  align-items: center;
+  margin: auto;
+  padding:7.5%;
+  width: 100%;
+  height: 112%;
+  justify-content: center;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .botao_azul {
   background-color: var(--azul-DNC);
-  height: 2em;
-  width: 100%;
+  height: 3em;
+  width:100%;
   color: white;
   border: none;
-  margin: 2em auto;
-  padding: 1.5em;
+  margin: auto;
+  margin-top:2em;
+  padding: 1em;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -76,12 +117,13 @@
 
 .botao_cinza {
   background-color: var(--cinza-DNC);
-  height: 2em;
-  width: 100%;
+  height: 3em;
+  width:100%;
   color: white;
   border: none;
-  margin: 2em auto;
-  padding: 1.5em;
+  margin: auto;
+  margin-top:2em;
+  padding: 1em;
   align-items: center;
   display: flex;
   justify-content: center;

@@ -26,11 +26,11 @@ return (
     <>
     <Topo />
     <Menu />
+    <div style={{display:"flex", flexDirection:"column"}}>
     <div className="area-product">
         <div className="product">
         
         <div className="description">
-            <img src={imagemCard} alt="" />
             <p>Microsoft Xbox Series X | Preto</p>
             <h3>Descrição</h3>
             <p>Lorem ipsum dolor sit amet consectur</p>
@@ -54,35 +54,44 @@ return (
         </div>
     
     </div>
-    <div className="area_modal">
-    <div className="modal border100" id="adicionar" tabindex="-1" style={{ }} aria-hidden="true">
-        <div className="description_modal">
-        <img src={imagemCard} alt="" />
-        </div>
+    <div className="area_modal2">
+    <div className="modal2 border50" id="adicionar" tabindex="-1" style={{ }} aria-hidden="true">
+        
         <div className="information_modal">
                 
-                <h2 className="color_area">Microsoft Xbox Series X | Preto</h2>
-                <div className="bar"></div>
-                <h1 className="price">R$ 2.000,00</h1>
-                <p className="color_text">Cor: Preto</p>
-                <p className="area_color"></p>
-                
-                <button className="remove_cart border10 botao_azul" onClick={desaparecermodal}>
-                Continuar comprando
-                </button>
+                <h1 className="color_area">Finalizar compra</h1>
+                <div className="form">
+                    <form>
+                        <label>Digite seu nome</label>
+                        <input type="text" placeholder="Nome completo"></input>
+                        <label>Digite seu CPF</label>
+                        <input  type="number" placeholder="CPF completo"></input>
+                        <label>Endereço</label>
+                        <input type="password" placeholder="Endereço completo"></input>
+                        <label>Forma de pagamento</label>
+                        <select id="selecionarforma">
+                            <option value="cartão de crédito">Cartão de crédito</option>
+                            <option value="cartão de débito">Cartão de débito</option>
+                            <option value="pix">PIX</option>
+                            <option value="boleto">Boleto</option>
+                        </select>
+                    </form>
+                </div>
+                <div className="botao_confirmar">
                 <Link
-                to="/checkout"
-                style={{ textDecoration: "none", color: "white" }}>
-                <button className="add_cart border10 botao_cinza" >
-                Finalizar compra
+                to="/"
+                style={{ textDecoration: "none", color: "white", width:"30em" }}>
+                <button className="add_cart border10 botao_azul" >
+                Confirmar pedido
                 </button>
                 </Link>
-                
-
+                </div>
             </div>
         </div>
+        
         </div>
-    <Rodape />
+        <div style={{marginTop:"21vh", position:"relative", width:"100%"}}><Rodape /></div>
+        </div>
     </>
 );
 };
